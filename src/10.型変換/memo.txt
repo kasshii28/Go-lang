@@ -1,0 +1,17 @@
+stringとintの相互変換
+packageのstrconvをimport
+
+//str → int
+strconv.Atoi(変数)
+
+//int → str
+strconv.Itoa(変数)
+
+i, _ := strconv.Atoi(s)
+上のアンダーバーを記述することで2つ目の値を破棄できる
+
+i, err := strconv.Atoi(s)
+if err != nil  {
+  fmt.Println(err)
+}
+_をerrにしif文を使えばエラーハンドリングが出来る
