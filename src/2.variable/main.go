@@ -63,6 +63,6 @@ func main(){
 
 	//fmt.Println(s4)
 
-	var s5 = string = "Not use"
+	var s5 string = "Not use"
 	fmt.Println(s5)
 }
