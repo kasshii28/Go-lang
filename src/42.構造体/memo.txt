@@ -1,0 +1,13 @@
+構造体は複数の任意の型の値を一つに纏めたもの
+
+user7 := new(User)
+user7 := &User{}
+new,&演算子を使うと構造体のポインタを返す
+
+func UpdateUser2(user *User){
+	user.Name = "A"
+	user.Age = 200
+}
+
+関数に構造体を参照渡しすると各フィールドの
+アドレスを変更するので値が変更できる
