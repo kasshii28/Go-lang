@@ -29,6 +29,4 @@ func main() {
 	case n > 3 && n < 7:
 		fmt.Println("3 < n < 7")
 	}
-	}
-
 }

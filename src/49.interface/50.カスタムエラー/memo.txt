@@ -1,0 +1,7 @@
+エラーの中身にアクセスするには型アサーションを使う
+以下のように中身を見ることが出来る
+
+e, ok := err.(*MyError)
+	if ok{
+		fmt.Println(e.ErrCode)
+	}

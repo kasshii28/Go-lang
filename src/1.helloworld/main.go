@@ -9,5 +9,5 @@ import (
 
 func main(){
 	fmt.Println("Hello world!")
-	fmt,Println(time.Now()) 
+	fmt.Println(time.Now()) 
 }
