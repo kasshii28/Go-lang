@@ -1,0 +1,5 @@
+DB.Exec()
+・検索結果を取得しない場合：CERATE,INSERT,UPDATE,DELETE,etc...
+
+DB.Query()
+・複数の検索結果(rows)を取得する場合(SELECT)。一行(row)の場合はQueryRow()。
